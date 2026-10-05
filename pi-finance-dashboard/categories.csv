@@ -1,0 +1,36 @@
+# Merchant category overrides.
+# Any transaction whose merchant or name CONTAINS "match" (case-insensitive)
+# is reassigned to "category". First match wins, top to bottom.
+# Edit freely — re-run the sync (or just regenerate) to apply.
+match,category
+whole foods,Groceries
+trader joe,Groceries
+costco,Groceries
+h mart,Groceries
+safeway,Groceries
+qfc,Groceries
+tesla supercharger,Transportation
+shell,Transportation
+chevron,Transportation
+uber eats,Dining
+doordash,Dining
+grubhub,Dining
+blue bottle,Dining
+starbucks,Dining
+netflix,Entertainment
+spotify,Entertainment
+hulu,Entertainment
+apple.com/bill,Entertainment
+pse,Utilities
+comcast,Utilities
+xfinity,Utilities
+t-mobile,Utilities
+home depot,Home
+lowe's,Home
+ikea,Home
+wayfair,Home
+hoa,Home
+cvs,Health
+walgreens,Health
+one medical,Health
+classpass,Health
